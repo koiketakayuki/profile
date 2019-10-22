@@ -1,4 +1,4 @@
-name: build, test, and lint check for all commits
+name: Check commit
 
 on: [push]
 
