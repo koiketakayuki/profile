@@ -7,8 +7,11 @@ module.exports = {
     "eslint:recommended",
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended",
     "prettier/@typescript-eslint",
-    "plugin:prettier/recommended"
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:import/typescript"
   ],
   plugins: ["react-hooks"],
   rules: {
@@ -17,10 +20,8 @@ module.exports = {
     "react-hooks/exhaustive-deps": "warn"
   },
   settings: {
-    "import/resolver": {
-      node: {
-        extensions: [".js", ".jsx", ".ts", ".tsx"]
-      }
+    react: {
+      version: "detect"
     }
   },
   globals: {
@@ -29,6 +30,7 @@ module.exports = {
   },
   parser: "@typescript-eslint/parser",
   parserOptions: {
+    project: "./tsconfig.json",
     ecmaFeatures: {
       jsx: true
     },
