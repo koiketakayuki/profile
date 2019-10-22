@@ -1,0 +1,9 @@
+# for node
+node_modules
+
+# for next.js
+.next
+out
+
+# for firebase
+.firebase
