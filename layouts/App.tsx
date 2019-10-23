@@ -12,9 +12,7 @@ const App: FunctionComponent = props => (
       <meta name="description" content="koiketakayuki's profile page" />
       <link
         rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-        integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU="
-        crossOrigin="anonymous"
+        href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
       />
     </Head>
     {props.children}
