@@ -21,6 +21,9 @@ const Description: FunctionComponent<DescriptionProps> = ({
       dt:not(:first-child) {
         margin-top: 12px;
       }
+      dd {
+        margin-top: 8px;
+      }
     `}</style>
   </>
 );

@@ -1,11 +1,10 @@
 import React, { FunctionComponent } from 'react';
-import App from '../layouts/App';
+import Page from '../layouts/Page';
 import Description from '../components/Description';
 import DescriptionList from '../components/DescriptionList';
 
 const Index: FunctionComponent = () => (
-  <App>
-    <h1>koiketakayuki&#39;s Profile</h1>
+  <Page title="プロフィール">
     <DescriptionList>
       <Description label="名前">小池貴之</Description>
       <Description label="性別">男</Description>
@@ -26,7 +25,7 @@ const Index: FunctionComponent = () => (
         現在無職
       </Description>
     </DescriptionList>
-  </App>
+  </Page>
 );
 
 export default Index;
