@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import Head from 'next/head';
 import Header from '../components/Header';
 
-const App: FunctionComponent = props => (
+const Page: FunctionComponent = props => (
   <div className="app">
     <Head>
       <title>koiketakayuk&#39;s Page</title>
@@ -36,8 +36,8 @@ const App: FunctionComponent = props => (
   </div>
 );
 
-App.propTypes = {
+Page.propTypes = {
   children: PropTypes.node.isRequired
 };
 
-export default App;
+export default Page;
