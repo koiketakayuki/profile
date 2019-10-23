@@ -25,7 +25,7 @@ const Page: FunctionComponent<PageProps> = props => (
     <Header></Header>
     <main>
       <Heading1>{props.title}</Heading1>
-      <div>{props.children}</div>
+      <div className="content-wrap">{props.children}</div>
     </main>
     <style jsx>{`
       .app {
@@ -33,6 +33,9 @@ const Page: FunctionComponent<PageProps> = props => (
         flex-direction: column;
         height: 100vh;
         overflow: hidden:
+      }
+      .content-wrap {
+        padding: 20px 0;
       }
       main {
         flex-grow: 1;
