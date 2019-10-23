@@ -41,7 +41,7 @@ const Page: FunctionComponent<PageProps> = props => (
       }
       main {
         flex-grow: 1;
-        padding: 20px;
+        padding: 32px 64px;
       }
     `}</style>
     <script src="/__/firebase/7.2.1/firebase-app.js"></script>
