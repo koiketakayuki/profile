@@ -9,7 +9,8 @@
     "start": "next start",
     "export": "next export",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint . --ext=js,jsx,ts,tsx"
+    "lint": "eslint . --ext=js,jsx,ts,tsx",
+    "versioning": "standard-version"
   },
   "repository": {
     "type": "git",
@@ -38,6 +39,7 @@
     "eslint-plugin-react": "^7.16.0",
     "eslint-plugin-react-hooks": "^1.7.0",
     "prettier": "^1.18.2",
+    "standard-version": "^7.0.0",
     "typescript": "^3.6.4"
   }
 }
