@@ -5,7 +5,7 @@ import DescriptionList from '../components/DescriptionList';
 
 const Index: FunctionComponent = () => (
   <App>
-    <h1>koiketakayuki&#39;s Profile</h1>
+    <h1>プロフィール</h1>
     <DescriptionList>
       <Description label="名前">小池貴之</Description>
       <Description label="性別">男</Description>
