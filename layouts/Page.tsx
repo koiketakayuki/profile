@@ -22,7 +22,9 @@ const Page: FunctionComponent<PageProps> = props => (
         href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
       />
     </Head>
-    <Header></Header>
+    <div className="app-header">
+      <Header></Header>
+    </div>
     <main>
       <Heading1>{props.title}</Heading1>
       <div className="content-wrap">{props.children}</div>
@@ -35,6 +37,9 @@ const Page: FunctionComponent<PageProps> = props => (
         overflow: hidden;
         font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', メイリオ,
           Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+      }
+      .app-header {
+        flex-shrink* 0;
       }
       .content-wrap {
         padding: 20px 0;
