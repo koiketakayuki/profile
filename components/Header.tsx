@@ -15,7 +15,7 @@ const Header: FunctionComponent = () => {
 
   return (
     <header>
-      <p className="page-title">koiketakayuki&#39;s Page</p>
+      <p className="page-title">koiketakayuki&#39;s page</p>
       <HeaderNav>
         {navMenus.map(m => (
           <HeaderNavLink
