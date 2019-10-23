@@ -33,8 +33,6 @@ const Page: FunctionComponent<PageProps> = props => (
       .app {
         display: flex;
         flex-direction: column;
-        height: 100vh;
-        overflow: hidden;
         font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', メイリオ,
           Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
       }
