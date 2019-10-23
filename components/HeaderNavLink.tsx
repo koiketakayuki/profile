@@ -25,8 +25,6 @@ const HeaderNavLink: FunctionComponent<{
       }
       .active {
         color: blue;
-        font-weight: bold;
-        opacity: 0.4;
       }
       .link {
         cursor: pointer;

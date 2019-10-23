@@ -7,6 +7,10 @@ const navMenus = [
   {
     route: '/',
     label: 'Profile'
+  },
+  {
+    route: '/schedule',
+    label: 'Schedule'
   }
 ];
 
