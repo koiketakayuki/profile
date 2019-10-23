@@ -2,8 +2,14 @@ import React, { FunctionComponent } from 'react';
 import PropTypes from 'prop-types';
 import Head from 'next/head';
 import Header from '../components/Header';
+import Heading1 from '../components/Heading1';
 
-const Page: FunctionComponent = props => (
+interface PageProps {
+  title: string;
+  children?: React.ReactNode;
+}
+
+const Page: FunctionComponent<PageProps> = props => (
   <div className="app">
     <Head>
       <title>koiketakayuk&#39;s Page</title>
@@ -17,7 +23,10 @@ const Page: FunctionComponent = props => (
       />
     </Head>
     <Header></Header>
-    <main>{props.children}</main>
+    <main>
+      <Heading1>{props.title}</Heading1>
+      <div>{props.children}</div>
+    </main>
     <style jsx>{`
       .app {
         display: flex;
@@ -37,7 +46,8 @@ const Page: FunctionComponent = props => (
 );
 
 Page.propTypes = {
-  children: PropTypes.node.isRequired
+  title: PropTypes.string.isRequired,
+  children: PropTypes.node
 };
 
 export default Page;
