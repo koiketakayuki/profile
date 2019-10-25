@@ -16,6 +16,7 @@ module.exports = {
   plugins: ["react-hooks"],
   rules: {
     "prettier/prettier": ["error", { singleQuote: true }],
+    "react/prop-types": 0,
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn"
   },
@@ -26,7 +27,8 @@ module.exports = {
   },
   globals: {
     Atomics: "readonly",
-    SharedArrayBuffer: "readonly"
+    SharedArrayBuffer: "readonly",
+    process: true
   },
   parser: "@typescript-eslint/parser",
   parserOptions: {
