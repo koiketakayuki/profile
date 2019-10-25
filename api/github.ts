@@ -1,9 +1,9 @@
 import Release from '../models/Release';
 import fetch from 'isomorphic-fetch';
 
-const queryGitHubGraphqlAPI = (token: string) => (
-  query: string
-): Promise<Response> =>
+const token = process.env.GITHUB_READONLY_TOKEN;
+
+const queryGitHubGraphqlAPI = (query: string): Promise<Response> =>
   fetch('https://api.github.com/graphql', {
     method: 'POST',
     headers: {
@@ -32,13 +32,10 @@ const getReleasesQuery = (owner: string, repository: string): string => `
 }`;
 
 export async function getReleases(
-  token: string,
   owner: string,
   repository: string
 ): Promise<Release[]> {
-  const res = await queryGitHubGraphqlAPI(token)(
-    getReleasesQuery(owner, repository)
-  );
+  const res = await queryGitHubGraphqlAPI(getReleasesQuery(owner, repository));
   const json = await res.json();
   return json.data.repository.releases.edges.map(
     (e: { node: Release }) => e.node
