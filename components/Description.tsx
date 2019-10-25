@@ -22,7 +22,7 @@ const Description: FunctionComponent<DescriptionProps> = ({
         margin-top: 12px;
       }
       dd {
-        margin-top: 8px;
+        padding: 8px 16px;
       }
     `}</style>
   </>
