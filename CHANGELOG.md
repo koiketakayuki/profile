@@ -2,6 +2,27 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/koiketakayuki/profile/compare/v1.2.0...v1.3.0) (2019-10-25)
+
+
+### Features
+
+*  add releases path ([7b36128](https://github.com/koiketakayuki/profile/commit/7b36128c802649d76ffda637c0225fa227f449c1))
+* add github api client ([697eba0](https://github.com/koiketakayuki/profile/commit/697eba09007618740a2b2234db21e898eb0ba1ab))
+* add release link to Header ([11edf42](https://github.com/koiketakayuki/profile/commit/11edf425be54692f83de465171a03ec1bb92f8dd))
+* add ReleaseEntry component ([7d5dcaa](https://github.com/koiketakayuki/profile/commit/7d5dcaa67fda367477e81450e654a71f5a8893a5))
+* add releases page component ([d709c21](https://github.com/koiketakayuki/profile/commit/d709c210e94d83331b8197da04ba315e187c17c7))
+* add route settings for schedule page ([a24f257](https://github.com/koiketakayuki/profile/commit/a24f257b61b55a96ffb10d2ded6a1e3ae26c9f59))
+* add schedule page component ([1938064](https://github.com/koiketakayuki/profile/commit/1938064203b4b0262d26cd7898f38462c15056bd))
+* add schedule page link to Header ([b14fc96](https://github.com/koiketakayuki/profile/commit/b14fc966bb759e5b1df18eaf8ef11a3dde1cbde0))
+* redesign active state NavLink ([0f438eb](https://github.com/koiketakayuki/profile/commit/0f438ebde66792e5e01fcf67c4d903ee89cd0139))
+* remove fixed height layout ([99760a9](https://github.com/koiketakayuki/profile/commit/99760a921d3a43da9424474635811ca9f2a3c248))
+
+
+### Bug Fixes
+
+* fix createdAt type to string ([8a07463](https://github.com/koiketakayuki/profile/commit/8a07463e6be54ddab46b93d3e11bf7acca7cfa49))
+
 ## [1.2.0](https://github.com/koiketakayuki/profile/compare/v1.1.0...v1.2.0) (2019-10-23)
 
 
