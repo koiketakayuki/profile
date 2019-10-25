@@ -9,6 +9,10 @@ const navMenus = [
     label: 'Profile'
   },
   {
+    route: '/job-offer',
+    label: 'Job Offer'
+  },
+  {
     route: '/schedule',
     label: 'Schedule'
   },
