@@ -24,6 +24,20 @@ const Index: FunctionComponent = () => (
         </ul>
         現在無職
       </Description>
+      <Description label="性格">
+        <ul>
+          <li>
+            <a href="https://github.com/koiketakayuki/profile/blob/master/strength-finder.md">
+              ストレングスファインダー
+            </a>
+          </li>
+          <li>
+            <a href="https://www.pokemon.co.jp/corporate/job/pokemoncenter/special/result/dragonite.html">
+              ポケモン性格診断
+            </a>
+          </li>
+        </ul>
+      </Description>
     </DescriptionList>
   </Page>
 );
