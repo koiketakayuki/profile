@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/koiketakayuki/profile/compare/v1.3.0...v1.4.0) (2019-10-25)
+
+
+### Features
+
+* add job-offer link to header ([4b8b9bd](https://github.com/koiketakayuki/profile/commit/4b8b9bde1b4ff32c5524851493ed4b56f06b5b7e))
+* add job-offer page component ([46b6fb4](https://github.com/koiketakayuki/profile/commit/46b6fb459e6414221b49b020ee6c4ab0658fedd3))
+* add job-offer route ([0ca7989](https://github.com/koiketakayuki/profile/commit/0ca7989f6213177f84c0480160912d149d1bae93))
+* add personality link ([b86fb62](https://github.com/koiketakayuki/profile/commit/b86fb62c701523fb233a604dc901a8bffc94a219))
+* coordinate padding ([c6915c4](https://github.com/koiketakayuki/profile/commit/c6915c4055a892aee7a2478834973695805c54e7))
+* write skill ([82d4d43](https://github.com/koiketakayuki/profile/commit/82d4d43be9cd9d9d4b067932bfc810ebb985da4f))
+
 ## [1.3.0](https://github.com/koiketakayuki/profile/compare/v1.2.0...v1.3.0) (2019-10-25)
 
 
