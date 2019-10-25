@@ -18,6 +18,7 @@ const Page: FunctionComponent<PageProps> = props => (
       <meta name="keywords" content="koiketakayuki,profile,engineer" />
       <meta name="description" content="koiketakayuki's profile page" />
       <link rel="icon" href="/favicon.ico"></link>
+      <link rel="manifest" href="/manifest.json"></link>
       <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
