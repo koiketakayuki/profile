@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/koiketakayuki/profile#readme",
   "dependencies": {
+    "dayjs": "^1.8.16",
     "isomorphic-fetch": "^2.2.1",
     "next": "^9.1.1",
     "react": "^16.10.2",
