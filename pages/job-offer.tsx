@@ -1,8 +1,8 @@
-import React from "react";
-import Page from "../layouts/Page";
-import { NextPage } from "next";
-import DescriptionList from "../components/DescriptionList";
-import Description from "../components/Description";
+import React from 'react';
+import Page from '../layouts/Page';
+import { NextPage } from 'next';
+import DescriptionList from '../components/DescriptionList';
+import Description from '../components/Description';
 
 const JobOffer: NextPage = () => {
   return (
@@ -13,7 +13,13 @@ const JobOffer: NextPage = () => {
           <div>
             やりたい仕事がはっきり決まっているわけではないので、Web業界、エンジニアに限らず色々な分野の仕事を探しています。
           </div>
-          <div>質問、仕事の依頼などございましたら、<a href="mailto:koiketakayuki.dev@gmail.com">koiketakayuki.dev@gmail.com</a>までご気軽にご連絡ください</div>
+          <div>
+            質問、仕事の依頼などございましたら、
+            <a href="mailto:koiketakayuki.dev@gmail.com">
+              koiketakayuki.dev@gmail.com
+            </a>
+            までご気軽にご連絡ください
+          </div>
         </div>
         <Description label="仕事に求める事">
           <ul>
