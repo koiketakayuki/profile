@@ -1,6 +1,6 @@
 import React from 'react';
-import Page from '../layouts/Page';
 import { NextPage } from 'next';
+import Page from '../components/Page';
 import DescriptionList from '../components/DescriptionList';
 import Description from '../components/Description';
 

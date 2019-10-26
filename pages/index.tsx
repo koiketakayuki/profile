@@ -1,5 +1,5 @@
 import React, { FunctionComponent } from 'react';
-import Page from '../layouts/Page';
+import Page from '../components/Page';
 import Description from '../components/Description';
 import DescriptionList from '../components/DescriptionList';
 
