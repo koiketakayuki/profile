@@ -1,9 +1,9 @@
-name: ci
+name: Check commit
 
 on: [push]
 
 jobs:
-  ci:
+  check-commit:
     runs-on: ubuntu-latest
     strategy:
       matrix:
