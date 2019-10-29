@@ -26,6 +26,9 @@ const Releases: NextPage<ReleasesProps> = ({ releases }) => {
         </Description>
         <Description label="ステータス">
           <img src="https://github.com/koiketakayuki/profile/workflows/Deploy/badge.svg"></img>
+          <a href="https://codecov.io/gh/koiketakayuki/profile">
+            <img src="https://codecov.io/gh/koiketakayuki/profile/branch/master/graph/badge.svg" />
+          </a>
         </Description>
         Description
         {releases.map(r => (
