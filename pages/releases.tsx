@@ -24,10 +24,14 @@ const Releases: NextPage<ReleasesProps> = ({ releases }) => {
             GitHub
           </a>
         </Description>
+        <Description label="ステータス">
+          <img src="https://github.com/koiketakayuki/profile/workflows/Deploy/badge.svg"></img>
+        </Description>
+        Description
+        {releases.map(r => (
+          <ReleaseEntry key={r.id} release={r}></ReleaseEntry>
+        ))}
       </DescriptionList>
-      {releases.map(r => (
-        <ReleaseEntry key={r.id} release={r}></ReleaseEntry>
-      ))}
     </Page>
   );
 };
