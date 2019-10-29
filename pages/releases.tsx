@@ -36,7 +36,13 @@ const Releases: NextPage<ReleasesProps> = ({ releases }) => {
         </Description>
         Description
         {releases.map(r => (
-          <ReleaseEntry key={r.id} release={r}></ReleaseEntry>
+          <ReleaseEntry
+            key={r.id}
+            release={r}
+            onClick={(): void => {
+              window.location.href = r.url;
+            }}
+          ></ReleaseEntry>
         ))}
       </DescriptionList>
     </Page>

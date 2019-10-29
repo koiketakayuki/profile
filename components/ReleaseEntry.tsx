@@ -1,12 +1,17 @@
-import React, { FunctionComponent } from 'react';
+import React, { FunctionComponent, MouseEventHandler } from 'react';
 import Release from '../models/Release';
 import dayjs from 'dayjs';
 
-const ReleaseEntry: FunctionComponent<{ release: Release }> = ({ release }) => (
-  <div
-    className="entry"
-    onClick={(): Window | null => window.open(release.url)}
-  >
+interface ReleaseEntryProps {
+  release: Release;
+  onClick?: MouseEventHandler;
+}
+
+const ReleaseEntry: FunctionComponent<ReleaseEntryProps> = ({
+  release,
+  onClick
+}) => (
+  <div className="entry" onClick={onClick}>
     <div className="card-content">
       <div className="title">
         <span>{dayjs(release.createdAt).format('YYYY/MM/DD')}</span>
