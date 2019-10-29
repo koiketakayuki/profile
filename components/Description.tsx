@@ -11,8 +11,8 @@ const Description: FunctionComponent<DescriptionProps> = ({
   children
 }) => (
   <>
-    <dt>{label}</dt>
-    <dd>{children}</dd>
+    <dt role="label">{label}</dt>
+    <dd role="description">{children}</dd>
     <style jsx>{`
       dt {
         font-weight: bold;
