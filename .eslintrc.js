@@ -1,7 +1,8 @@
 module.exports = {
   env: {
     browser: true,
-    es6: true
+    es6: true,
+    "jest/globals": true
   },
   extends: [
     "eslint:recommended",
@@ -11,7 +12,8 @@ module.exports = {
     "prettier/@typescript-eslint",
     "plugin:import/errors",
     "plugin:import/warnings",
-    "plugin:import/typescript"
+    "plugin:import/typescript",
+    "plugin:jest/recommended"
   ],
   plugins: ["react-hooks"],
   rules: {
@@ -32,6 +34,7 @@ module.exports = {
   },
   parser: "@typescript-eslint/parser",
   parserOptions: {
+    createDefaultProgram: true,
     project: "./tsconfig.json",
     ecmaFeatures: {
       jsx: true

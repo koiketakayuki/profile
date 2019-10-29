@@ -16,20 +16,33 @@ const Releases: NextPage<ReleasesProps> = ({ releases }) => {
     <Page title="リリース">
       <DescriptionList>
         <Description label="ソースコード">
-          <a
-            href="https://github.com/koiketakayuki/profile"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            GitHub
-          </a>
+          <a href="https://github.com/koiketakayuki/profile">GitHub</a>
         </Description>
         <Description label="ステータス">
-          <img src="https://github.com/koiketakayuki/profile/workflows/Deploy/badge.svg"></img>
+          <a href="https://github.com/koiketakayuki/profile/actions?workflow=Deploy">
+            <img src="https://github.com/koiketakayuki/profile/workflows/Deploy/badge.svg"></img>
+          </a>
+          <a href="https://github.com/koiketakayuki/profile/actions?workflow=Check%20commit">
+            <img src="https://github.com/koiketakayuki/profile/workflows/Check%20commit/badge.svg"></img>
+          </a>
+          <a href="https://codecov.io/gh/koiketakayuki/profile">
+            <img src="https://codecov.io/gh/koiketakayuki/profile/branch/master/graph/badge.svg" />
+          </a>
+          <style jsx>{`
+            a:not(:first-child) {
+              margin-left: 12px;
+            }
+          `}</style>
         </Description>
         Description
         {releases.map(r => (
-          <ReleaseEntry key={r.id} release={r}></ReleaseEntry>
+          <ReleaseEntry
+            key={r.id}
+            release={r}
+            onClick={(): void => {
+              window.location.href = r.url;
+            }}
+          ></ReleaseEntry>
         ))}
       </DescriptionList>
     </Page>
