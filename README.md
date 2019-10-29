@@ -1,4 +1,5 @@
 # profile
+![](https://github.com/koiketakayuki/profile/workflows/Deploy/badge.svg)
 
 - [プログラミング](https://github.com/koiketakayuki/profile/blob/master/programming.md)
 - [ストレングスファインダー](https://github.com/koiketakayuki/profile/blob/master/strength-finder.md)
