@@ -1,26 +1,19 @@
-name: Check commit
+name: ci
 
 on: [push]
 
 jobs:
-  build:
-
+  ci:
     runs-on: ubuntu-latest
-
     strategy:
       matrix:
         node-version: [12.x]
-
     steps:
     - uses: actions/checkout@v1
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
+    - uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - name: npm install, build, and lint
-      run: |
-        npm ci
-        npm run build
-        npm run lint
-      env:
-        CI: true
+    - run: npm ci
+    - run: npm run lint
+    - run: npm run build
+    - run: npm test
