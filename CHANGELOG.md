@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/koiketakayuki/profile/compare/v1.4.0...v1.5.0) (2019-10-29)
+
+
+### Features
+
+* add source code link to release page ([3e18f59](https://github.com/koiketakayuki/profile/commit/3e18f59e0e91d810cb4a86bd692a2f8c91c2fb14))
+* add status badge to release page ([1ed568f](https://github.com/koiketakayuki/profile/commit/1ed568f0e0ff82ba28e7893b2a0b1d568a1d8073))
+* load manifest.json ([e1eb7cb](https://github.com/koiketakayuki/profile/commit/e1eb7cb730265085c92f8e3a32dc19fff91569dc))
+* set favicon ([0738131](https://github.com/koiketakayuki/profile/commit/073813124984548d2d1526ed244f3abd8773f9f0))
+
 ## [1.4.0](https://github.com/koiketakayuki/profile/compare/v1.3.0...v1.4.0) (2019-10-25)
 
 
