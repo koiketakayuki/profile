@@ -7,7 +7,7 @@ interface Heading1Props {
 
 const Heading1: FunctionComponent<Heading1Props> = props => (
   <>
-    <h1>{props.children}</h1>
+    <h1 role="heading">{props.children}</h1>
     <style jsx>{`
       h1 {
         font-size: 1.6em;
