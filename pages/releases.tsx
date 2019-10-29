@@ -28,6 +28,9 @@ const Releases: NextPage<ReleasesProps> = ({ releases }) => {
           <a href="https://github.com/koiketakayuki/profile/actions?workflow=Deploy">
           <img src="https://github.com/koiketakayuki/profile/workflows/Deploy/badge.svg"></img>
           </a>
+          <a href="https://github.com/koiketakayuki/profile/actions?workflow=Check%20commit">
+            <img src="https://github.com/koiketakayuki/profile/workflows/Check%20commit/badge.svg"></img>
+          </a>
           <a href="https://codecov.io/gh/koiketakayuki/profile">
             <img src="https://codecov.io/gh/koiketakayuki/profile/branch/master/graph/badge.svg" />
           </a>
