@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import Description from '../components/Description';
+import Description from '../../components/Description';
 
 describe('<Description />', () => {
   it('shows label', async () => {
