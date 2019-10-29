@@ -16,13 +16,7 @@ const Releases: NextPage<ReleasesProps> = ({ releases }) => {
     <Page title="リリース">
       <DescriptionList>
         <Description label="ソースコード">
-          <a
-            href="https://github.com/koiketakayuki/profile"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            GitHub
-          </a>
+          <a href="https://github.com/koiketakayuki/profile">GitHub</a>
         </Description>
         <Description label="ステータス">
           <a href="https://github.com/koiketakayuki/profile/actions?workflow=Deploy">
