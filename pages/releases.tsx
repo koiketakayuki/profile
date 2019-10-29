@@ -1,5 +1,5 @@
 import React from 'react';
-import Page from '../layouts/Page';
+import Page from '../components/Page';
 import { getReleases } from '../api/github';
 import { NextPage } from 'next';
 import Release from '../models/Release';
