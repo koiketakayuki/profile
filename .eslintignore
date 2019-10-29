@@ -1,3 +1,4 @@
 out
 .next
 next.config.js
+jest.config.js
