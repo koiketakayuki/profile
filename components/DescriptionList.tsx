@@ -6,7 +6,7 @@ interface DescriptionListProps {
 }
 
 const DescriptionList: FunctionComponent<DescriptionListProps> = props => (
-  <dl>{props.children}</dl>
+  <dl role="list">{props.children}</dl>
 );
 
 DescriptionList.propTypes = {
