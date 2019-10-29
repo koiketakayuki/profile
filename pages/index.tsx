@@ -31,7 +31,7 @@ const Index: FunctionComponent = () => (
               プログラミング
             </a>
           </li>
-          <li>英語 TOEIC 800+ (非日本語話者と働いた経験有))</li>
+          <li>英語 TOEIC 800+ (非日本語話者と働いた経験有)</li>
         </ul>
       </Description>
       <Description label="性格">
