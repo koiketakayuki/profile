@@ -4,14 +4,16 @@ import Description from '../../components/Description';
 
 describe('<Description />', () => {
   it('shows label', async () => {
-    const { getByRole } = render(<Description label="testLabel"></Description>);
-    expect(getByRole('label')).toHaveTextContent('testLabel');
+    const { getByTestId } = render(
+      <Description label="testLabel"></Description>
+    );
+    expect(getByTestId('label')).toHaveTextContent('testLabel');
   });
 
   it('shows description', async () => {
-    const { getByRole } = render(
+    const { getByTestId } = render(
       <Description label="label">testDescription</Description>
     );
-    expect(getByRole('description')).toHaveTextContent('testDescription');
+    expect(getByTestId('description')).toHaveTextContent('testDescription');
   });
 });
