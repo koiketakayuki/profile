@@ -13,11 +13,15 @@ const ReleaseEntry: FunctionComponent<ReleaseEntryProps> = ({
 }) => (
   <div className="entry" onClick={onClick}>
     <div className="card-content">
-      <div className="title">
-        <span>{dayjs(release.createdAt).format('YYYY/MM/DD')}</span>
+      <div className="title" title={release.name}>
+        <span data-testid="date">
+          {dayjs(release.createdAt).format('YYYY/MM/DD')}
+        </span>
         <span className="release-name">{release.name}</span>
       </div>
-      <div className="description">{release.description}</div>
+      <div className="description" data-testid="description">
+        {release.description}
+      </div>
     </div>
     <style jsx>
       {`
