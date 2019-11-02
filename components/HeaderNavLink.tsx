@@ -12,7 +12,9 @@ const HeaderNavLink: FunctionComponent<{
       <div className="active">{children}</div>
     ) : (
       <Link href={href}>
-        <div className="link">{children}</div>
+        <div className="link" role="link">
+          {children}
+        </div>
       </Link>
     )}
 
