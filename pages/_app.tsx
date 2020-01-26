@@ -2,38 +2,15 @@ import React from 'react';
 import App from 'next/app';
 import Head from 'next/head';
 import Header from '../components/Header';
-import { useRouter } from 'next/router';
-
-const pageTitle = "koiketakayuki's page";
-
-const routes = [
-  {
-    route: '/',
-    label: 'Profile'
-  },
-  {
-    route: '/job-offer',
-    label: 'Job Offer'
-  },
-  {
-    route: '/schedule',
-    label: 'Schedule'
-  },
-  {
-    route: '/releases',
-    label: 'Releases'
-  }
-];
 
 class MyApp extends App {
   render(): React.ReactElement {
-    const router = useRouter();
     const { Component, pageProps } = this.props;
 
     return (
       <div className="app">
         <Head>
-          <title>{pageTitle}</title>
+          <title>koiketakayuk&#39;s page</title>
           <meta charSet="utf-8" />
           <meta name="viewport" content="width=device-width,initial-scale=1" />
           <meta name="keywords" content="koiketakayuki,profile,engineer" />
@@ -46,11 +23,7 @@ class MyApp extends App {
           />
         </Head>
         <div className="app-header">
-          <Header
-            title={pageTitle}
-            currentRoute={router.route}
-            routes={routes}
-          ></Header>
+          <Header></Header>
         </div>
         <Component {...pageProps}></Component>
         <style jsx>{`

@@ -1,36 +1,41 @@
 import React, { FunctionComponent } from 'react';
+import { useRouter } from 'next/router';
 import HeaderNav from './HeaderNav';
 import HeaderNavLink from './HeaderNavLink';
 
-interface Route {
-  route: string;
-  label: string;
-}
+const navMenus = [
+  {
+    route: '/',
+    label: 'Profile'
+  },
+  {
+    route: '/job-offer',
+    label: 'Job Offer'
+  },
+  {
+    route: '/schedule',
+    label: 'Schedule'
+  },
+  {
+    route: '/releases',
+    label: 'Releases'
+  }
+];
 
-interface HeaderProps {
-  title: string;
-  currentRoute: string;
-  routes: Route[];
-}
+const Header: FunctionComponent = () => {
+  const router = useRouter();
 
-const Header: FunctionComponent<HeaderProps> = ({
-  title,
-  routes,
-  currentRoute
-}) => {
   return (
     <header>
-      <p className="page-title" title="title">
-        {title}
-      </p>
+      <p className="page-title">koiketakayuki&#39;s page</p>
       <HeaderNav>
-        {routes.map(r => (
+        {navMenus.map(m => (
           <HeaderNavLink
-            key={r.label}
-            href={r.route}
-            active={currentRoute === r.route}
+            key={m.label}
+            href={m.route}
+            active={router.route === m.route}
           >
-            {r.label}
+            {m.label}
           </HeaderNavLink>
         ))}
       </HeaderNav>
