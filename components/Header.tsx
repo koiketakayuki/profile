@@ -6,15 +6,15 @@ import HeaderNavLink from './HeaderNavLink';
 const navMenus = [
   {
     route: '/',
-    label: 'Profile'
+    label: 'プロフィール'
   },
   {
     route: '/job-offer',
-    label: 'Job Offer'
+    label: '仕事'
   },
   {
     route: '/schedule',
-    label: 'Schedule'
+    label: 'スケジュール'
   }
 ];
 
