@@ -6,7 +6,7 @@ import Description from '../components/Description';
 
 const JobOffer: NextPage = () => {
   return (
-    <Page title="仕事について">
+    <Page>
       <DescriptionList>
         <div>
           <div>現在求職中です。</div>

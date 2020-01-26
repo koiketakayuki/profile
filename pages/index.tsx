@@ -7,7 +7,7 @@ import TimelineEvent from '../components/TimelineEvent';
 import career from '../data/career';
 
 const Index: FunctionComponent = () => (
-  <Page title="プロフィール">
+  <Page>
     <DescriptionList>
       <Description label="名前">小池貴之</Description>
       <Description label="性別">男</Description>

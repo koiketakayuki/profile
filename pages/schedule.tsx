@@ -2,7 +2,7 @@ import React, { FunctionComponent } from 'react';
 import Page from '../components/Page';
 
 const Schedule: FunctionComponent = () => (
-  <Page title="スケジュール">
+  <Page>
     <iframe
       src="https://calendar.google.com/calendar/embed?src=koiketakayuki.dev%40gmail.com&ctz=Asia%2FTokyo"
       width="800"

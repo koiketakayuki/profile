@@ -1,15 +1,12 @@
 import React, { FunctionComponent } from 'react';
 import PropTypes from 'prop-types';
-import Heading1 from '../components/Heading1';
 
 interface PageProps {
-  title: string;
   children?: React.ReactNode;
 }
 
 const Page: FunctionComponent<PageProps> = props => (
   <main>
-    <Heading1>{props.title}</Heading1>
     <div className="content-wrap">{props.children}</div>
     <style jsx>{`
       .content-wrap {
@@ -24,7 +21,6 @@ const Page: FunctionComponent<PageProps> = props => (
 );
 
 Page.propTypes = {
-  title: PropTypes.string.isRequired,
   children: PropTypes.node
 };
 
