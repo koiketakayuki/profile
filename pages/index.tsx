@@ -21,30 +21,6 @@ const Index: FunctionComponent = () => (
           ))}
         </Timeline>
       </Description>
-      <Description label="スキル">
-        <ul>
-          <li>
-            <a href="https://github.com/koiketakayuki/profile/blob/master/programming.md">
-              プログラミング
-            </a>
-          </li>
-          <li>英語 TOEIC 800+ (非日本語話者と働いた経験有)</li>
-        </ul>
-      </Description>
-      <Description label="性格">
-        <ul>
-          <li>
-            <a href="https://github.com/koiketakayuki/profile/blob/master/strength-finder.md">
-              ストレングスファインダー
-            </a>
-          </li>
-          <li>
-            <a href="https://www.pokemon.co.jp/corporate/job/pokemoncenter/special/result/dragonite.html">
-              ポケモン性格診断
-            </a>
-          </li>
-        </ul>
-      </Description>
     </DescriptionList>
   </Page>
 );
