@@ -26,20 +26,12 @@ class MyApp extends App {
           <Header></Header>
         </div>
         <Component {...pageProps}></Component>
-        <style jsx>{`
-            .app {
-                display: flex;
-                         flex-direction: column;
-                font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', メイリオ,
-                Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
-            }
-            .app-header {
-                flex-shrink* 0;
-            }
-            `}</style>
         <script src="/__/firebase/7.2.1/firebase-app.js"></script>
         <script src="/__/firebase/7.2.1/firebase-analytics.js"></script>
         <script src="/__/firebase/init.js"></script>
+        <style jsx>{`
+          font-size: 10px;
+        `}</style>
       </div>
     );
   }
