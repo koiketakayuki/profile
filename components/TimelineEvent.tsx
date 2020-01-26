@@ -10,9 +10,9 @@ const TimelineEvent: FunctionComponent<TimelineEventProps> = props => {
   return (
     <>
       <div className="timeline-row">
-        <div>{props.from}</div>
+        <div className="time">{props.from}</div>
         <div className="hyphen">-</div>
-        <div>{props.to}</div>
+        <div className="time">{props.to}</div>
         <div className="content">{props.children}</div>
       </div>
       <style jsx>{`
@@ -23,6 +23,10 @@ const TimelineEvent: FunctionComponent<TimelineEventProps> = props => {
         .timeline-row > * {
           display: table-cell;
           line-height: 2em;
+        }
+
+        .time {
+          white-space: nowrap;
         }
 
         .hyphen {
