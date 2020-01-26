@@ -15,10 +15,6 @@ const navMenus = [
   {
     route: '/schedule',
     label: 'Schedule'
-  },
-  {
-    route: '/releases',
-    label: 'Releases'
   }
 ];
 

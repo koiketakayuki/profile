@@ -17,8 +17,6 @@ jobs:
         run: |
           npm run build
           npm run export
-        env:
-          GITHUB_READONLY_TOKEN: ${{ secrets.GITHUB_READONLY_TOKEN }}
       - name: Archive Production Artifact
         uses: actions/upload-artifact@master
         with:

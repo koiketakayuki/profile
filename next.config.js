@@ -3,11 +3,7 @@ module.exports = {
     return {
       "/": { page: "/" },
       "job-offer": { page: "/job-offer" },
-      schedule: { page: "/schedule" },
-      releases: { page: "/releases" }
+      schedule: { page: "/schedule" }
     };
-  },
-  env: {
-    GITHUB_READONLY_TOKEN: process.env.GITHUB_READONLY_TOKEN
   }
 };
