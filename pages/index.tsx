@@ -2,6 +2,9 @@ import React, { FunctionComponent } from 'react';
 import Page from '../components/Page';
 import Description from '../components/Description';
 import DescriptionList from '../components/DescriptionList';
+import Timeline from '../components/Timeline';
+import TimelineEvent from '../components/TimelineEvent';
+import career from '../data/career';
 
 const Index: FunctionComponent = () => (
   <Page title="プロフィール">
@@ -10,19 +13,13 @@ const Index: FunctionComponent = () => (
       <Description label="性別">男</Description>
       <Description label="生年月日">1991/9/7</Description>
       <Description label="経歴">
-        <ul>
-          <li>2010年4月 京都大学理学部物理学科入学</li>
-          <li>2014年3月 卒業</li>
-          <li>
-            2014年4月 京都大学大学院理学研究科 物理学第二教室宇宙線研究室入学
-          </li>
-          <li>2015年3月 大学院退学</li>
-          <li>2015年4月 株式会社デザインワンジャパン入社</li>
-          <li>2018年10月 退職</li>
-          <li>2018年11月 株式会社ビービット入社</li>
-          <li>2019年9月 退職</li>
-        </ul>
-        現在無職
+        <Timeline>
+          {career.map((c, i) => (
+            <TimelineEvent key={i} from={c.from} to={c.to}>
+              {c.content}
+            </TimelineEvent>
+          ))}
+        </Timeline>
       </Description>
       <Description label="スキル">
         <ul>
