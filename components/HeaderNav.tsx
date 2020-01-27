@@ -1,5 +1,4 @@
 import React, { FunctionComponent } from 'react';
-import PropTypes from 'prop-types';
 
 const HeaderNav: FunctionComponent = props => (
   <nav>
@@ -12,9 +11,5 @@ const HeaderNav: FunctionComponent = props => (
     `}</style>
   </nav>
 );
-
-HeaderNav.propTypes = {
-  children: PropTypes.node
-};
 
 export default HeaderNav;

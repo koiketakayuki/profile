@@ -1,5 +1,4 @@
 import React, { FunctionComponent } from 'react';
-import PropTypes from 'prop-types';
 
 interface DescriptionProps {
   label: string;
@@ -32,10 +31,5 @@ const Description: FunctionComponent<DescriptionProps> = ({
     `}</style>
   </>
 );
-
-Description.propTypes = {
-  label: PropTypes.string.isRequired,
-  children: PropTypes.node
-};
 
 export default Description;

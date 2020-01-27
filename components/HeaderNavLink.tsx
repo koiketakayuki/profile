@@ -1,5 +1,4 @@
 import React, { FunctionComponent } from 'react';
-import PropTypes from 'prop-types';
 import Link from 'next/link';
 
 const HeaderNavLink: FunctionComponent<{
@@ -37,11 +36,5 @@ const HeaderNavLink: FunctionComponent<{
     `}</style>
   </li>
 );
-
-HeaderNavLink.propTypes = {
-  href: PropTypes.string.isRequired,
-  active: PropTypes.bool,
-  children: PropTypes.node
-};
 
 export default HeaderNavLink;

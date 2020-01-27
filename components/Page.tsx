@@ -1,5 +1,4 @@
 import React, { FunctionComponent } from 'react';
-import PropTypes from 'prop-types';
 
 interface PageProps {
   children?: React.ReactNode;
@@ -19,9 +18,5 @@ const Page: FunctionComponent<PageProps> = props => (
     `}</style>
   </main>
 );
-
-Page.propTypes = {
-  children: PropTypes.node
-};
 
 export default Page;
