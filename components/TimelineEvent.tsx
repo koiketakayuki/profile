@@ -36,6 +36,7 @@ const TimelineEvent: FunctionComponent<TimelineEventProps> = props => {
 
         .content {
           padding-left: 1em;
+          white-space: pre-wrap;
         }
       `}</style>
     </>
