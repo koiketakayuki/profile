@@ -2,11 +2,14 @@ import React, { FunctionComponent } from 'react';
 
 const HeaderNav: FunctionComponent = props => (
   <nav>
-    <ul>{props.children}</ul>
+    {props.children}
     <style jsx>{`
       nav {
-        flex-grow: 1;
-        text-align: center;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+        border-color: #888888;
+        display: flex;
+        padding: 0 20px;
       }
     `}</style>
   </nav>

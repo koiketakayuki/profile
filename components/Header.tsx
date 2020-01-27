@@ -23,7 +23,12 @@ const Header: FunctionComponent = () => {
 
   return (
     <header>
-      <p className="page-title">koiketakayuki&#39;s page</p>
+      <div className="title-container">
+        <p className="title">
+          koiketakayuki
+          <span className="accent">&#39;</span>s page
+        </p>
+      </div>
       <HeaderNav>
         {navMenus.map(m => (
           <HeaderNavLink
@@ -36,16 +41,19 @@ const Header: FunctionComponent = () => {
         ))}
       </HeaderNav>
       <style jsx>{`
-        header {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
-          height: 54px;
-          padding: 0 24px;
+        .title-container {
+          padding: 72px 24px 24px;
+          background-image: url('images/title-background.svg');
         }
-        .page-title {
-          font-size: 1.6em;
+        .title {
+          font-size: 3.6em;
           font-weight: bold;
+          font-family: Andale Mono, monospace;
+          font-style: oblique;
+          overflow-wrap: break-word;
+        }
+        .accent {
+          color: #e88229;
         }
       `}</style>
     </header>
