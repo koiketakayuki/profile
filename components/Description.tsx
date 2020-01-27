@@ -15,18 +15,14 @@ const Description: FunctionComponent<DescriptionProps> = ({
     <style jsx>{`
       dt {
         font-weight: bold;
-        font-size: 1.4em;
+        font-size: 2.1em;
         color: white;
         background: #2948e8;
-        padding: 0.4em 1em;
-      }
-      dt:not(:first-child) {
-        margin-top: 12px;
+        padding: 0.4em 0.6em;
       }
       dd {
         font-size: 1.4em;
-        padding: 8px 16px;
-        padding: 1em 1em;
+        padding: 0.6em 0.9em;
       }
     `}</style>
   </>
