@@ -9,7 +9,7 @@ const Page: FunctionComponent<PageProps> = props => (
     <div className="content-wrap">{props.children}</div>
     <style jsx>{`
       .content-wrap {
-        padding: 20px 0;
+        padding: 20px;
       }
     `}</style>
   </main>
