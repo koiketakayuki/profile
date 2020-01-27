@@ -30,12 +30,12 @@ const TimelineEvent: FunctionComponent<TimelineEventProps> = props => {
         }
 
         .hyphen {
-          min-width: 2em;
+          min-width: 1em;
           text-align: center;
         }
 
         .content {
-          padding-left: 3em;
+          padding-left: 1em;
         }
       `}</style>
     </>
