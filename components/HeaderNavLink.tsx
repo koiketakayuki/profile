@@ -8,7 +8,7 @@ const HeaderNavLink: FunctionComponent<{
 }> = ({ href, children, active = false }) => {
   if (active) {
     return (
-      <>
+      <li>
         <div className="active">{children}</div>
         <style jsx>{`
           .active {
@@ -19,12 +19,12 @@ const HeaderNavLink: FunctionComponent<{
             opacity: 0.8;
           }
         `}</style>
-      </>
+      </li>
     );
   }
 
   return (
-    <>
+    <li>
       <Link href={href}>
         <div role="link">{children}</div>
       </Link>
@@ -41,7 +41,7 @@ const HeaderNavLink: FunctionComponent<{
           opacity: 0.8;
         }
       `}</style>
-    </>
+    </li>
   );
 };
 

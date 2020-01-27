@@ -2,9 +2,9 @@ import React, { FunctionComponent } from 'react';
 
 const HeaderNav: FunctionComponent = props => (
   <nav>
-    {props.children}
+    <ul>{props.children}</ul>
     <style jsx>{`
-      nav {
+      ul {
         border-top: 1px solid;
         border-bottom: 1px solid;
         border-color: #888888;
