@@ -2,6 +2,38 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/koiketakayuki/profile/compare/v1.5.0...v1.6.0) (2020-01-29)
+
+
+### Features
+
+* add check commit status to release page ([e3fea81](https://github.com/koiketakayuki/profile/commit/e3fea81279f3ab078371f9c0f7e567667cb5a585))
+* add coverage status to release page ([f160db2](https://github.com/koiketakayuki/profile/commit/f160db2d36e75be23c9c0136e1e02e741e408bdc))
+* add high-school career ([b8db14f](https://github.com/koiketakayuki/profile/commit/b8db14f6735c7a9c932cbed7f74b4e78781b9548))
+* add padding to content ([72ad16d](https://github.com/koiketakayuki/profile/commit/72ad16d9bbf99841b63462cd639870d9ea2071c0))
+* format career content ([57af875](https://github.com/koiketakayuki/profile/commit/57af875cc3d410a3f4ec76bf448a2efbe6e1ba10))
+* format timeline event ([0fd0cce](https://github.com/koiketakayuki/profile/commit/0fd0cce86c4f136d7d8d2c6c72038e9ae53e811c))
+* ReleaseEntry now doesn't open new tab ([9e619ea](https://github.com/koiketakayuki/profile/commit/9e619ea9961984ab8b1080cabdb6f3deacb84161))
+* remove page title ([ff4682d](https://github.com/koiketakayuki/profile/commit/ff4682d88939d59c7b59858d830d10071ce23c02))
+* remove profile content ([4bc67f2](https://github.com/koiketakayuki/profile/commit/4bc67f2664b6dbddf4ba50f80947252e51b986ae))
+* remove release page ([c28af2a](https://github.com/koiketakayuki/profile/commit/c28af2a0028f3b18af58e1f6a57ca86edd44ac84))
+* set link for deploy status badge ([db9e2c6](https://github.com/koiketakayuki/profile/commit/db9e2c65ca3d8187d4483bd4d67eea783abbebf3))
+* source code link now doesn't open new tab ([90c3363](https://github.com/koiketakayuki/profile/commit/90c336349917e3d4f77df08218059a690b97dddc))
+* style status badges ([1dbed62](https://github.com/koiketakayuki/profile/commit/1dbed62aba0304f7965532d250a733d3a0d03259))
+* turn header nav menu into Japanese ([64ee798](https://github.com/koiketakayuki/profile/commit/64ee7982bf9274777d96305aaa13cf680894b638))
+* update career design ([d76db20](https://github.com/koiketakayuki/profile/commit/d76db20b0942a05fac0bdefafdf255aa9c9c9f74))
+* update Description design for readability ([2fbeaf8](https://github.com/koiketakayuki/profile/commit/2fbeaf89308e34bd768e225fdaebc36711dbabd2))
+* update global style ([1ae62eb](https://github.com/koiketakayuki/profile/commit/1ae62ebc119700d200ffa0277859ac35c1b96e02))
+* update Header design ([63cb8fb](https://github.com/koiketakayuki/profile/commit/63cb8fb8fec819a43a7634d7bf0fedcd6f106691))
+* update profile design ([22f2425](https://github.com/koiketakayuki/profile/commit/22f2425c6b3d65fb6ba691b60bff86d933de7c0b))
+* update TimelineEvent design for readability ([01aa745](https://github.com/koiketakayuki/profile/commit/01aa745d692349b4991dd50bddcc377fee9ce00d))
+* use Sawarabi Mincho as a default font ([dd11177](https://github.com/koiketakayuki/profile/commit/dd11177d75ca7bcf85903da35c4905724147a82a))
+
+
+### Bug Fixes
+
+* header nav menu is implemented with ul+li ([8214f37](https://github.com/koiketakayuki/profile/commit/8214f37e35f6c9cc5ac3b4ee80c17837043aef55))
+
 ## [1.5.0](https://github.com/koiketakayuki/profile/compare/v1.4.0...v1.5.0) (2019-10-29)
 
 
