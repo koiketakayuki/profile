@@ -46,6 +46,7 @@ const Header: FunctionComponent = () => {
           font-weight: bold;
           font-family: Andale Mono, monospace;
           font-style: oblique;
+          text-shadow: 1px 1px #57b2ff;
         }
         .title-container {
           padding: 128px 24px 24px;
