@@ -41,16 +41,24 @@ const Header: FunctionComponent = () => {
         ))}
       </HeaderNav>
       <style jsx>{`
-        .title-container {
-          padding: 72px 24px 24px;
-          background-image: url('images/title-background.svg');
-        }
         .title {
-          font-size: 3.6em;
+          font-size: 5.6em;
           font-weight: bold;
           font-family: Andale Mono, monospace;
           font-style: oblique;
           overflow-wrap: break-word;
+        }
+        .title-container {
+          padding: 128px 24px 24px;
+          background-image: url('images/title-background.svg');
+        }
+        @media screen and (max-width: 480px) {
+          .title {
+            font-size: 3.6em;
+          }
+          .title-container {
+            padding: 72px 24px 24px;
+          }
         }
         .accent {
           color: #e88229;

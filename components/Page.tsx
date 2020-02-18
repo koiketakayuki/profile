@@ -9,7 +9,12 @@ const Page: FunctionComponent<PageProps> = props => (
     <div className="content-wrap">{props.children}</div>
     <style jsx>{`
       .content-wrap {
-        padding: 20px;
+        padding: 40px 20px;
+      }
+      @media screen and (max-width: 480px) {
+        .content-wrap {
+          padding: 20px 0;
+        }
       }
     `}</style>
   </main>
