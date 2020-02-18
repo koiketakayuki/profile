@@ -41,6 +41,9 @@ const Header: FunctionComponent = () => {
         ))}
       </HeaderNav>
       <style jsx>{`
+        header {
+          color: #545454;
+        }
         .title {
           font-size: 5.6em;
           font-weight: bold;
