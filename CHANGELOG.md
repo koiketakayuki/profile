@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.7.0](https://github.com/koiketakayuki/profile/compare/v1.6.0...v1.7.0) (2020-06-07)
+
+
+### Features
+
+* apply different font color to header ([6dc1b62](https://github.com/koiketakayuki/profile/commit/6dc1b629ce05322cfc2ca29916b099e98c2a7e07))
+* apply responsive layout ([8b929d9](https://github.com/koiketakayuki/profile/commit/8b929d99a0700b9fd095ca6420a237a14c07f552))
+* drop shadow to title text ([13941dd](https://github.com/koiketakayuki/profile/commit/13941dd6956429cdb136c98532cf65af05a245c6))
+* remove schedule page ([09913ae](https://github.com/koiketakayuki/profile/commit/09913ae89d1ab8d7fa4ba98cb4216945edc7fb82))
+* update Description style ([9813095](https://github.com/koiketakayuki/profile/commit/98130955ec3b5e69c8fae70060f8ac8c651ae4a6))
+* update job-offer page ([da9d7fa](https://github.com/koiketakayuki/profile/commit/da9d7facc4bfb5acb46fd67528d047eac67e2035))
+
 ## [1.6.0](https://github.com/koiketakayuki/profile/compare/v1.5.0...v1.6.0) (2020-01-29)
 
 
