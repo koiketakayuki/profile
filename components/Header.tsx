@@ -11,10 +11,6 @@ const navMenus = [
   {
     route: '/job-offer',
     label: '仕事'
-  },
-  {
-    route: '/schedule',
-    label: 'スケジュール'
   }
 ];
 
