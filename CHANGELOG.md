@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.7.1](https://github.com/koiketakayuki/profile/compare/v1.7.0...v1.7.1) (2020-06-07)
+
+
+### Bug Fixes
+
+* update export page path ([404c80e](https://github.com/koiketakayuki/profile/commit/404c80e208b0cd9c6b5752c2b2307116906b81c1))
+
 ## [1.7.0](https://github.com/koiketakayuki/profile/compare/v1.6.0...v1.7.0) (2020-06-07)
 
 
