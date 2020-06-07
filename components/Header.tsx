@@ -9,7 +9,7 @@ const navMenus = [
     label: 'プロフィール'
   },
   {
-    route: '/job-offer',
+    route: '/job',
     label: '仕事'
   }
 ];
