@@ -1,8 +1,8 @@
 import React from 'react';
 import { render } from '@testing-library/react';
-import Description from '../../components/Description';
+import Description from '../../components/Section';
 
-describe('<Description />', () => {
+describe('<Section />', () => {
   it('shows label', async () => {
     const { getByTestId } = render(
       <Description label="testLabel"></Description>
@@ -10,10 +10,10 @@ describe('<Description />', () => {
     expect(getByTestId('label')).toHaveTextContent('testLabel');
   });
 
-  it('shows description', async () => {
+  it('shows content', async () => {
     const { getByTestId } = render(
-      <Description label="label">testDescription</Description>
+      <Description label="label">testContent</Description>
     );
-    expect(getByTestId('description')).toHaveTextContent('testDescription');
+    expect(getByTestId('content')).toHaveTextContent('testContent');
   });
 });
