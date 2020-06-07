@@ -5,22 +5,24 @@ interface DescriptionProps {
 }
 
 const Description: React.FC<DescriptionProps> = ({ label, children }) => (
-  <>
+  <dl>
     <dt>{label}</dt>
     <dd>{children}</dd>
     <style jsx>{`
       dt {
-        margin-top: 20px;
         font-weight: bold;
         font-size: 1.2em;
+        margin-top: 26px;
+        color: #2948e8;
       }
       dd {
         font-weight: default;
-        margin-top: 12px;
+        margin-top: 14px;
+        margin-bottom: 26px;
         line-height: 1.4em;
       }
     `}</style>
-  </>
+  </dl>
 );
 
 export default Description;
